@@ -23,8 +23,6 @@ The Tool is made up of a series of Python scripts daisy-chained together, with t
 
 The input is a set of csv files, where each csv file corresponds to a fund/VC that is comparable to the fund that the use is fundraising for. Each csv should contain the list of limited partners that has invested in the particular comparable fund and details about the limited partners such as country and type (angel investor, family office, asset manager, etc).
 
-The original dataset used was acquired from [PitchBook](www.pitchbook.com).
-
 
 ## The Outputs
 
