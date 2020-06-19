@@ -19,8 +19,14 @@ The Tool is made up of a series of Python scripts daisy-chained together, with t
 
 ![VCFT_Flowchart](README_images/VCFT_Flowchart.jpeg)
 
-As seen from above,
+## The Inputs
 
+The original dataset used was acquired from [PitchBook](www.pitchbook.com).
+
+
+## The Outputs
+
+The output is a csv file that force ranks potential limited partners based on the VC network stitched from the input csv files. Specifically, they are ranked based on a weighted sum of network centrality measures. The code provided by this repo uses degree centrality, eigenvector centrality and reach centrality, but other centrality measures can be added/removed too. We believe that these measures capture relationships or even causal effects on the fundraising outcomes that are not-so-obvious to the human intuition. As such, using this Tool can provide an objective method of identifying potential limited partners that complements the current VC fundraising workflows.
 
 ## Getting Started
 
@@ -31,14 +37,13 @@ All required pacakges can be found in the `requirements.txt` file. To install th
 pip install -r requirements.txt
 ```
 
-## How the Tool Works
-
-The original dataset was acquired from [PitchBook](www.pitchbook.com). A dummy dataset was generated to use as a toy example to conduct our analysis in this repository.
 
 
 
 
 
-## Thanks
+
+
+## Special Thanks
 
 This project would not have been possible without the boldness of the Anthemis team to challenge the conventional and their openness to new ideas. This project was mentored by Erica Young.
