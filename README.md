@@ -8,7 +8,7 @@ _**Disclaimer:** This project was done as part of my work with Anthemis. All dat
 
 **The Venture Capital Fundraising Tool was inspired by the unobvious impacts that networks have on business outcomes.**  When fundraising, venture capitalists struggle to identify key investors in an objective fashion, it is common practice for VCs to focus on investors/coinvestors they already know, rather than the ones that they should know. Even so, identifying the ones that they should know is proven to be a challenge, as assessing the _"should"_ factor can be subjected to one's personal biases or lack of information. Hence, we believe that the networks of VCs play a more crucial role in fundraising outcomes than most choose to believe and that network analysis can  complement current VC fundraising workflows.
 
-![VCFT_Network-Graph.png](README_images/VCFT_Network-Graph.png)
+![VCFT_Network-Graph](README_images/VCFT_Network-Graph.jpg)
 
 
 ## The Tool
